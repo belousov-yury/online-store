@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "server": "nodemon insex.js --prefix server",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
